@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "ca65",
+			"config": "firmware.cfg",
+			"problemMatcher": [
+				"$ca65",
+				"$ld65",
+				"$ld65-unresolved",
+				"$ld65-config"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "ca65: Build with firmware.cfg"
+		}
+	]
+}

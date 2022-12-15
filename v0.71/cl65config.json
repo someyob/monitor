@@ -1,0 +1,5 @@
+{
+    "executable": "C:\\cc65\\bin\\cl65",
+    "input": "monitor.s",
+    "params": "--verbose --target none --listing output.lst"
+}
